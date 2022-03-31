@@ -12,6 +12,6 @@
         android:layout_height="wrap_content"
         android:textColor="@color/black"
         android:textSize="35sp"
-        android:text="Comming son"/>
+        android:text="Comming son..."/>
 
 </LinearLayout>
