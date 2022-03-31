@@ -44,6 +44,8 @@ public class OrderAdapter extends FirebaseRecyclerAdapter<OrderItem, OrderAdapte
                 intent.putExtra("check_2", model.getCheck_2());
                 intent.putExtra("start_time", model.getStartTime());
                 intent.putExtra("start_end", model.getEndTime());
+                intent.putExtra("start_time2", model.getStartTime2());
+                intent.putExtra("start_end2", model.getEndTime2());
                 intent.putExtra("choosing", model.getChoosing());
                 intent.putExtra("dimensions", model.getDimensions());
                 intent.putExtra("summa", model.getSumma());

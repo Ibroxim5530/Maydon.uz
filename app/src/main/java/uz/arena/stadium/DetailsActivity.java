@@ -23,8 +23,9 @@ public class DetailsActivity extends AppCompatActivity {
     DatabaseReference reference;
     private FirebaseAuth mAuth;
     ImageView back, img_card;
-    TextView name, bathroom, dimensions, start_off, end_off, start_on, end_on, summa;
-    LinearLayout line_1_off, line_1_on;
+    TextView name, bathroom, dimensions, start_off, end_off, start_on, end_on,
+            start2_off, end2_off, start2_on, end2_on, tek_txt, summa;
+    LinearLayout line_1_off, line_1_on, line_2_off, line_2_on;
     ProgressBar progressBar;
     Button btn_det;
 
@@ -43,10 +44,17 @@ public class DetailsActivity extends AppCompatActivity {
         summa = findViewById(R.id.arena_summa_det);
         start_off = findViewById(R.id.start_time_off);
         end_off = findViewById(R.id.end_time_off);
+        start2_off = findViewById(R.id.start_time2_off);
+        end2_off = findViewById(R.id.end_time2_off);
         start_on = findViewById(R.id.start_time_on);
         end_on = findViewById(R.id.end_time_on);
+        start2_on = findViewById(R.id.start_time2_on);
+        tek_txt = findViewById(R.id.tek_txt);
+        end2_on = findViewById(R.id.end_time2_on);
         line_1_off = findViewById(R.id.line_time1_off);
         line_1_on = findViewById(R.id.line_time1_on);
+        line_2_off = findViewById(R.id.line_time2_off);
+        line_2_on = findViewById(R.id.line_time2_on);
         back = findViewById(R.id.det_back);
         img_card = findViewById(R.id.img_card_det);
         progressBar = findViewById(R.id.progress_det_card);
@@ -63,7 +71,6 @@ public class DetailsActivity extends AppCompatActivity {
         btn_det.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
             }
         });
 
@@ -72,6 +79,22 @@ public class DetailsActivity extends AppCompatActivity {
             public void onClick(View v) {
                 line_1_off.setVisibility(View.GONE);
                 line_1_on.setVisibility(View.VISIBLE);
+                line_2_on.setVisibility(View.GONE);
+                line_2_off.setVisibility(View.VISIBLE);
+                String tek = start_on.getText() + end_on.getText().toString();
+                tek_txt.setText(tek);
+            }
+        });
+
+        line_2_off.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                line_1_on.setVisibility(View.GONE);
+                line_2_off.setVisibility(View.GONE);
+                line_2_on.setVisibility(View.VISIBLE);
+                line_1_off.setVisibility(View.VISIBLE);
+                String tekS = start2_on.getText() + end2_on.getText().toString();
+                tek_txt.setText(tekS);
             }
         });
 
@@ -85,8 +108,12 @@ public class DetailsActivity extends AppCompatActivity {
         dimensions.setText(getIntent().getStringExtra("dimensions"));
         start_off.setText(getIntent().getStringExtra("start_time"));
         end_off.setText(getIntent().getStringExtra("start_end"));
-        start_on.setText(getIntent().getStringExtra("start_end"));
+        start_on.setText(getIntent().getStringExtra("start_time"));
         end_on.setText(getIntent().getStringExtra("start_end"));
+        start2_off.setText(getIntent().getStringExtra("start_time2"));
+        end2_off.setText(getIntent().getStringExtra("start_end2"));
+        start2_on.setText(getIntent().getStringExtra("start_time2"));
+        end2_on.setText(getIntent().getStringExtra("start_end2"));
         summa.setText(getIntent().getStringExtra("summa"));
 
         Bundle extras1 = getIntent().getExtras();

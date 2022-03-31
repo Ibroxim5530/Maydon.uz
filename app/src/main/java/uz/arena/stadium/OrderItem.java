@@ -1,7 +1,7 @@
 package uz.arena.stadium;
 
 public class OrderItem {
-    String startTime, endTime, summa, arena_name, dimensions, choosing, location, check_1, check_2,
+    String startTime, endTime, startTime2, endTime2, summa, arena_name, dimensions, choosing, location, check_1, check_2,
             radio, rasim1, rasim2, rasim3, rasim4;
 
     public OrderItem(){}
@@ -77,5 +77,18 @@ public class OrderItem {
 
     public String getRasim4() {
         return rasim4;
+    }
+
+    public OrderItem(String startTime2, String endTime2) {
+        this.startTime2 = startTime2;
+        this.endTime2 = endTime2;
+    }
+
+    public String getStartTime2() {
+        return startTime2;
+    }
+
+    public String getEndTime2() {
+        return endTime2;
     }
 }
