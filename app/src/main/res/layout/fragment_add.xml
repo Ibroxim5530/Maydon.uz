@@ -76,6 +76,6 @@
         android:textSize="35sp"
         android:textColor="@color/colorBlue"
         android:layout_gravity="center"
-        android:text="ADD"/>
+        android:text="Comming son..."/>
 
 </LinearLayout>
