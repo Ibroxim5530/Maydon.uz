@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="nomer">Phone Number</string>
+    <string name="tasdiqlash_cod">We will send you confirm code</string>
+    <string name="raqamingiz">Enter your mobile number</string>
+    <string name="davom_etish">Continue</string>
+    <string name="google_bilan">Continue with Google</string>
+    <string name="sms_kod">An SMS code will be sent to you shortly</string>
+    <string name="sms_yubormoqdamiz">We are sending you an sms code</string>
+    <string name="kod_kiriting">Please enter the incoming code</string>
+    <string name="hato_kiritildi">Code entered incorrectly…</string>
+    <string name="otp_tekshiruv">OTP Verification</string>
+    <string name="kod_yuborildi">An Authentecation code has been sent to:</string>
+    <string name="kod_kelmadimi">Didn’t receive code?</string>
+    <string name="qayta_yuborish">Receive Again.</string>
+    <string name="muvofaqiyatli">Muvofaqiyatli</string>
+    <string name="register">Register</string>
+    <string name="getting_started">Getting Started</string>
+    <string name="seems_you">Seems you are new here, Let’s set up your profile</string>
+    <string name="name">Name</string>
+    <string name="lost_name">Lost Name</string>
+    <string name="by_creating">By creating an account, you agree to our <a href="https://www.google.com/">Term and Conditions</a></string>
+    <string name="bosh_sahifa">Home</string>
+    <string name="stadionlar">Stadiums</string>
+    <string name="musobaqalar">Competitions</string>
+    <string name="koproq">More</string>
+    <string name="continue_with_google">Continue with Google</string>
+    <string name="toast_shart">Bizning shartimizga rozilik bering!</string>
+</resources>

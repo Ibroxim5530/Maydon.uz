@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/mHome"
+        android:title="@string/bosh_sahifa"
+        android:icon="@drawable/home"/>
+
+    <item android:id="@+id/mSearch"
+        android:title="@string/stadionlar"
+        android:icon="@drawable/arena_new"/>
+
+    <item android:id="@+id/mHolder"
+        android:title=""
+        app:showAsAction="ifRoom"
+        android:enabled="false"/>
+
+    <item android:id="@+id/mPerson"
+        android:title="@string/musobaqalar"
+        android:icon="@drawable/group"/>
+
+    <item android:id="@+id/mSetting"
+        android:title="@string/koproq"
+        android:icon="@drawable/more"/>
+
+</menu>

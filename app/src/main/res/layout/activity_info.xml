@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InfoActivity"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        tools:ignore="UselessParent"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:layout_width="170dp"
+            android:layout_height="23dp"
+            android:layout_centerInParent="true"
+            android:fontFamily="@font/andada"
+            android:gravity="center"
+            android:text="@string/register"
+            android:textColor="#171618"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="266dp"
+        android:layout_height="36dp"
+        android:textSize="28sp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#171618"
+        android:text="@string/getting_started"
+        android:fontFamily="@font/andada"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="277dp"
+        android:layout_height="54dp"
+        android:textSize="18sp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#BF171618"
+        android:text="@string/seems_you"
+        android:fontFamily="@font/andada"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="20dp"
+        android:hint="@string/name"
+        android:orientation="horizontal"
+        android:padding="3dp"
+        app:boxCornerRadiusBottomEnd="10dp"
+        app:boxCornerRadiusBottomStart="10dp"
+        app:boxCornerRadiusTopEnd="10dp"
+        app:boxCornerRadiusTopStart="10dp"
+        app:boxStrokeColor="#744D4D4E"
+        app:hintAnimationEnabled="true"
+        app:hintTextColor="#B2171618">
+
+        <EditText
+            android:id="@+id/name_info"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="16sp"
+            android:inputType="textCapWords"
+            android:padding="12dp"
+            android:background="@null"
+            android:textColorHint="#A3171618"
+            android:textColor="#171618"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="20dp"
+        android:hint="@string/lost_name"
+        android:orientation="horizontal"
+        android:padding="3dp"
+        app:boxCornerRadiusBottomEnd="10dp"
+        app:boxCornerRadiusBottomStart="10dp"
+        app:boxCornerRadiusTopEnd="10dp"
+        app:boxCornerRadiusTopStart="10dp"
+        app:boxStrokeColor="#744D4D4E"
+        app:hintAnimationEnabled="true"
+        app:hintTextColor="#B2171618">
+
+        <EditText
+            android:id="@+id/lost_info"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="16sp"
+            android:padding="12dp"
+            android:background="@null"
+            android:inputType="textCapWords"
+            android:textColorHint="#A3171618"
+            android:textColor="#171618"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+    
+    <CheckBox
+        android:id="@+id/checkBy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/by_creating"
+        android:textColor="#BF171618"
+        android:fontFamily="@font/andada"
+        android:textSize="16sp"
+        android:padding="10dp"/>
+
+    <Button
+        android:id="@+id/info_btn"
+        android:layout_width="339dp"
+        android:layout_height="64dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btn_radius"
+        android:text="@string/davom_etish"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:fontFamily="@font/andada"
+        android:textSize="16sp"
+        android:visibility="gone"/>
+
+    <Button
+        android:id="@+id/info_btn_off"
+        android:layout_width="339dp"
+        android:layout_height="64dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btn_radius_off"
+        android:fontFamily="@font/andada"
+        android:text="@string/davom_etish"
+        android:textAllCaps="false"
+        android:textColor="@color/menu"
+        android:textSize="16sp" />
+
+</LinearLayout>

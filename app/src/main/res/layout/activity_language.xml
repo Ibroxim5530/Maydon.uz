@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#405CBF"
+    android:orientation="vertical"
+    tools:context=".LanguageActivity">
+
+    <ImageView
+        android:id="@+id/lan_next"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_gravity="end"
+        android:layout_margin="10dp"
+        android:background="@drawable/ic_arrow"/>
+
+    <TextView
+        android:id="@+id/yoqqan_til"
+        android:layout_width="338dp"
+        android:layout_height="72dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="8dp"
+        android:fontFamily="@font/averia_serif_libre_bold"
+        android:text="@string/tilni_tanlang"
+        android:textColor="@color/white"
+        android:textSize="28sp" />
+
+    <TextView
+        android:id="@+id/iltimos_til"
+        android:layout_width="325dp"
+        android:layout_height="28dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="5dp"
+        android:fontFamily="@font/averia_serif_libre_bold"
+        android:text="@string/iltimos_til"
+        android:textColor="#ADFFFFFF"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:id="@+id/line_uz"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/language_background"
+        android:orientation="horizontal">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:src="@drawable/uzb_language"
+            app:civ_border_color="#8BFFFFFF"
+            app:civ_border_width="2dp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/language_background"
+            android:fontFamily="@font/amiko_semibold"
+            android:gravity="center|start"
+            android:text="O‘zbekcha"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="21sp" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#9EFFFFFF" />
+
+    <LinearLayout
+        android:id="@+id/line_ru"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="@drawable/language_background"
+        android:orientation="horizontal">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:src="@drawable/russia_language"
+            app:civ_border_color="#8BFFFFFF"
+            app:civ_border_width="2dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/language_background"
+            android:fontFamily="@font/amiko_semibold"
+            android:gravity="center|start"
+            android:text="Русский"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="21sp" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#9EFFFFFF" />
+
+    <LinearLayout
+        android:id="@+id/line_eng"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="@drawable/language_background"
+        android:orientation="horizontal">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:src="@drawable/america_language"
+            app:civ_border_color="#8BFFFFFF"
+            app:civ_border_width="2dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/language_background"
+            android:fontFamily="@font/amiko_semibold"
+            android:gravity="center|start"
+            android:text="English"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="21sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SmsActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        tools:ignore="UselessParent">
+
+        <ImageView
+            android:id="@+id/sms_back"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/ic_arrow_back"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:layout_width="170dp"
+            android:layout_height="23dp"
+            android:layout_centerInParent="true"
+            android:fontFamily="@font/andada"
+            android:gravity="center"
+            android:text="@string/otp_tekshiruv"
+            android:textColor="#171618"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="339dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/andada"
+        android:text="@string/kod_yuborildi"
+        android:textColor="#171618"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/number_txt"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/andada"
+        android:gravity="center"
+        android:textColor="#405CBF"
+        android:textSize="19sp" />
+
+    <com.gne.www.lib.PinView
+        android:id="@+id/pinview"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:layout_marginTop="50dp"
+        app:inputType="number"
+        app:isPassword="false"
+        app:pinBackground="@drawable/edit_background"
+        app:pinCount="6"
+        app:pinSize="55dp"
+        app:pinTextSize="14sp"
+        app:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/sms_btn"
+        android:layout_width="339dp"
+        android:layout_height="64dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/btn_radius"
+        android:fontFamily="@font/andada"
+        android:text="@string/davom_etish"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/andada"
+            android:text="@string/kod_kelmadimi"
+            android:textColor="#B5171618"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/txt_recieve"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:fontFamily="@font/andada"
+            android:text="@string/qayta_yuborish"
+            android:textColor="#405CBF"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

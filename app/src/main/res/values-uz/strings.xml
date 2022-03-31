@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Maydon.uz</string>
+    <string name="tilni_tanlang">O\'zingiz yoqtirgan tilni tanlang</string>
+    <string name="iltimos_til">Iltimos, tilingizni tanlang</string>
+    <string name="nomer">Telefon raqam</string>
+    <string name="tasdiqlash_cod">Biz sizga tasdiqlash kodini yuboramiz</string>
+    <string name="raqamingiz">Mobil raqamingizni kiriting</string>
+    <string name="davom_etish">Davom etish</string>
+    <string name="google_bilan">Google bilan davom etish</string>
+    <string name="sms_kod">Sizga sms kod yuboriladi tez orada</string>
+    <string name="sms_yubormoqdamiz">Sizga sms kod yubormoqdamiz</string>
+    <string name="kod_kiriting">Iltimos, kelgan kodni kiriting</string>
+    <string name="hato_kiritildi">Kod hato kiritildi…</string>
+    <string name="otp_tekshiruv">OTP tekshiruvi</string>
+    <string name="kod_yuborildi">Autentifikatsiya kodi quyidagi raqamga yuborildi:</string>
+    <string name="kod_kelmadimi">Kod kelmadimi?</string>
+    <string name="qayta_yuborish">Qayta kod yuborish.</string>
+    <string name="muvofaqiyatli">Muvofaqiyatli</string>
+    <string name="register">Roʻyxatdan oʻtish</string>
+    <string name="getting_started">Ishni boshlash</string>
+    <string name="seems_you">Siz bu yerda yangisiz, profilingizni o\'rnatamiz</string>
+    <string name="name">Ism</string>
+    <string name="lost_name">Familyangiz</string>
+    <string name="by_creating">Hisob qaydnomasini yaratish orqali siz bizning shartlarimizga rozilik bildirasiz <a href="https://www.google.com/">Muddati va shartlari</a></string>
+    <string name="bosh_sahifa">Bosh sahifa</string>
+    <string name="stadionlar">Stadionlar</string>
+    <string name="musobaqalar">Musobaqalar</string>
+    <string name="koproq">Qo\'shimcha</string>
+    <string name="continue_with_google">Continue with Google</string>
+    <string name="toast_shart">Bizning shartimizga rozilik bering!</string>
+</resources>

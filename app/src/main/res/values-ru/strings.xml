@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Maydon.uz</string>
+    <string name="tilni_tanlang">Выберите предпочитаемый язык</string>
+    <string name="iltimos_til">Пожалуйста, выберите ваш язык</string>
+    <string name="nomer">Телефонный номер</string>
+    <string name="tasdiqlash_cod">Мы вышлем вам код подтверждения</string>
+    <string name="raqamingiz">Введите номер мобильного телефона</string>
+    <string name="davom_etish">Продолжать</string>
+    <string name="google_bilan">Продолжить через Google</string>
+    <string name="sms_kod">SMS-код будет отправлен вам в ближайшее время</string>
+    <string name="sms_yubormoqdamiz">Мы отправляем вам смс-код</string>
+    <string name="kod_kiriting">Пожалуйста, введите входящий код</string>
+    <string name="hato_kiritildi">Код введен неверно…</string>
+    <string name="otp_tekshiruv">Проверка одноразового пароля</string>
+    <string name="kod_yuborildi">Код аутентификации отправлен на адрес:</string>
+    <string name="kod_kelmadimi">Не получили код?</string>
+    <string name="qayta_yuborish">Получить снова.</string>
+    <string name="muvofaqiyatli">Успешный</string>
+    <string name="register">Регистр</string>
+    <string name="getting_started">Начиная</string>
+    <string name="seems_you">Кажется, вы здесь впервые, давайте настроим ваш профиль</string>
+    <string name="name">Имя</string>
+    <string name="lost_name">Потерянное имя</string>
+    <string name="by_creating">Создавая учетную запись, вы соглашаетесь с нашими <a href="https://www.google.com/">Срок и условия</a></string>
+    <string name="bosh_sahifa">Домой</string>
+    <string name="stadionlar">Стадионы</string>
+    <string name="musobaqalar">Соревнования</string>
+    <string name="koproq">Более</string>
+    <string name="continue_with_google">Continue with Google</string>
+    <string name="toast_shart">Bizning shartimizga rozilik bering!</string>
+</resources>
