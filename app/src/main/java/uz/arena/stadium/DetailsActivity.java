@@ -68,7 +68,7 @@ public class DetailsActivity extends AppCompatActivity {
         });
 
         line_1_off.setOnClickListener(new View.OnClickListener() {
-            @Override           
+            @Override
             public void onClick(View v) {
                 line_1_off.setVisibility(View.GONE);
                 line_1_on.setVisibility(View.VISIBLE);
